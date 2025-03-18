@@ -11,5 +11,8 @@
 ✅ Weekly Mood Summary – Automatically calculates and displays the dominant mood of the past 7 days to give insights into emotional patterns.
 
 
-  ### 🏠 Home Page  
-![Mood Tracker Home]
+### 🏠 Home Page  
+![Mood Tracker Home](screenshots/1.png)  
+
+### 📊 Mood History  
+![Mood History](screenshots/2.png)  
