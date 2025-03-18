@@ -1,0 +1,2 @@
+# Mood-Tracker-Pro
+ 🌟 Mood Tracker – Track Your Daily Moods with Ease! A modern web application that lets users log their daily mood, store data in LocalStorage, and visualize emotional trends over time. The app features a calendar view, past mood history, and a sleek responsive UI for a seamless experience.  🚀 Live Demo: Deployment Link 📜 README & Docs: Includes setup instructions, features, and screenshots. 🛠️ Tech Stack: HTML, CSS, JavaScript (Vanilla) + LocalStorage 👨‍💻 Contributions: Open for enhancements & feature requests!
