@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Tracker Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header Section -->
+        <header class="header">
+            <h1>Mood Tracker Pro</h1>
+            <p>Track your emotional journey</p>
+        </header>
+
+        <!-- Mood Input Section -->
+        <section class="mood-input-section">
+            <h2>How are you feeling today?</h2>
+            <div class="mood-selector" id="moodSelector">
+                <button class="mood-btn" data-mood="🤩" data-label="Ecstatic"></button>
+                <button class="mood-btn" data-mood="😊" data-label="Happy"></button>
+                <button class="mood-btn" data-mood="😌" data-label="Calm"></button>
+                <button class="mood-btn" data-mood="😐" data-label="Neutral"></button>
+                <button class="mood-btn" data-mood="😴" data-label="Tired"></button>
+                <button class="mood-btn" data-mood="😢" data-label="Sad"></button>
+                <button class="mood-btn" data-mood="😠" data-label="Angry"></button>
+                <button class="mood-btn" data-mood="😰" data-label="Anxious"></button>
+            </div>
+            <div class="note-input">
+                <textarea id="moodNote" placeholder="Add a note about your day... (optional)"></textarea>
+            </div>
+            <button id="saveMoodBtn" class="save-btn" disabled>Save Today's Mood</button>
+        </section>
+
+        <!-- View Controls -->
+        <section class="view-controls">
+            <h2>Mood History</h2>
+            <div class="view-toggles">
+                <button id="dayViewBtn" class="view-btn selected">Day</button>
+                <button id="weekViewBtn" class="view-btn">Week</button>
+                <button id="monthViewBtn" class="view-btn">Month</button>
+                <button id="calendarViewBtn" class="view-btn">Calendar</button>
+            </div>
+        </section>
+
+        <!-- Statistics Section -->
+        <section class="stats-section" id="moodStats">
+            <!-- Filled dynamically -->
+        </section>
+
+        <!-- Timeline/Calendar Container -->
+        <section class="view-container">
+            <div id="timeline" class="timeline-view"></div>
+            <div id="calendar" class="calendar-view hidden"></div>
+        </section>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
